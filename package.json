@@ -1,0 +1,32 @@
+{
+  "name": "simple-memo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gumpen/simple-memo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gumpen/simple-memo/issues"
+  },
+  "homepage": "https://github.com/gumpen/simple-memo#readme",
+  "devDependencies": {
+    "electron": "^12.0.1",
+    "electron-builder": "^22.10.5"
+  },
+  "build": {
+    "appId": "com.my.app.id",
+    "mac": {
+      "category": "public.app-category.utilities"
+    }
+  },
+  "dependencies": {
+    "simplemde": "^1.11.2"
+  }
+}
